@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=IBM+Plex+Mono&display=swap');
+
 /*Variáveis*/
 :root {
-    --bg-color: #0e091b;
-    --bg-color2: #17161d;
+    --bg-color: #1A141A;
+    --bg-color2: #332A33;
   
-    --color-white: #fefbfb;
-    --color-grey: #c9c9c9;
-    --font-main: "IBM Plex Sans";
-    --font-secondary: "DM Sans";
+    --color-white: #E5DCE5;
+    --color-grey: #807080;
+
+    --principal-color: #B259B2;
+    --font-main: 'Exo 2', sans-serif;
+    --font-secondary: 'IBM Plex Mono', monospace;
   }
   
   /*Reset*/
@@ -71,7 +75,7 @@
     background-color: var(--bg-color2);
   }
   ::-webkit-scrollbar-thumb {
-    background-color: #6610f2;
+    background-color: var(--principal-color);
     border-radius: 4px;
   }
   
@@ -136,49 +140,4 @@
   section div article h2 {
     text-align: center;
     font-size: 2rem;
-  }
-  
-  /*Card PIX*/
-  #pix {
-    max-width: 600px;
-    margin: 2.4rem auto;
-  }
-  #pix div {
-    background-color: var(--bg-color2);
-    padding: 1.6rem;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  #pix div h2 {
-    font-size: 2.4rem;
-  }
-  #pix div p {
-    margin-top: 2.4rem;
-    font-size: 2.4rem;
-  }
-  #pix div h3 {
-    margin-bottom: 2.4rem;
-    font-size: 2rem;
-  }
-  #pix div button {
-    background: linear-gradient(
-      225deg,
-      rgba(102, 16, 242, 0.3) 0%,
-      var(--bg-color) 100%
-    );
-    border: 1px solid rgba(102, 16, 242, 0.5);
-    border-radius: 4px;
-    padding: 1.2rem;
-    font-size: 2rem;
-    color: var(--color-white);
-    cursor: pointer;
-  }
-  #pix div button:hover {
-    background: linear-gradient(
-      225deg,
-      rgba(102, 16, 242, 0.6) 0%,
-      var(--bg-color) 100%
-    );
   }
